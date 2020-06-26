@@ -1,4 +1,4 @@
-import { RouterContext } from "https://deno.land/x/oak/mod.ts";
+import { RouterContext } from "https://deno.land/x/oak@5.0.0/mod.ts";
 import db from "./mongodb.ts";
 
 const notesCollection = db.collection("notes");
